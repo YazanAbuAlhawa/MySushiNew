@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">My Application2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="mysushi">MySushi</string>
+    <string name="hello_explore_your_recipes">hello_explore_your_recipes</string>
+    <string name="hello_explore_your_recipes2">Hello Explore Your Recipes</string>
+    <string name="get_started">Get Started</string>
+    <string name="explore_your_recipes">Explore Your Recipes</string>
+    <string name="daily_recommendation">Daily recommendation</string>
+    <string name="favourite">Favourite</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="my_ingredients">My Ingredients</string>
+</resources>

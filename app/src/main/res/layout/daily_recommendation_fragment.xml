@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.gallery.DailyRecommendation"
+    android:background="@color/mediumGray">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@id/EditText3"
+            android:background="@drawable/search_bg"
+            android:textColor="@color/white"
+            android:layout_margin="6dp"
+            android:padding="10dp"
+            android:drawablePadding="9dp"
+            android:drawableRight="@drawable/ic_baseline_search_24"
+            android:textColorHint="@color/white"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="13sp"
+            app:layout_constraintTop_toTopOf="parent"
+            android:hint="Searc h your recipe"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:background="@drawable/search_bg"
+            android:padding="10dp"
+            android:src="@drawable/ic_baseline_person_24"
+            app:layout_constraintBottom_toBottomOf="@+id/EditText3"
+            app:layout_constraintStart_toEndOf="@+id/EditText3" />
+
+        <TextView
+            android:id="@+id/TextView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amarante"
+            android:text="Hello to My app"
+            android:layout_margin="35sp"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/EditText3"
+            app:layout_constraintStart_toStartOf="parent"/>
+        <TextView
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amita"
+            android:text="What are you searching for ?"
+
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/TextView7"
+            app:layout_constraintStart_toStartOf="parent"/>
+
+
+    </android.support.constraint.ConstraintLayout>
+    
+
+
+</android.support.v4.widget.NestedScrollView>
